@@ -11,12 +11,12 @@ import saveData from "./SaveData";
 <form onSubmit={handleSubmit(data => saveData(data))}>
     
     <label>Name </label>
-    <input name ="fName" type="data"  {...register('value_name')}></input> <br />
+    <input id="fname" name ="Name" type="data" autocomplete   {...register('value_name')}></input> <br />
     <label>Surname </label>
-    <input name ="lName" type="data" {...register('value_name')}></input><br />
+    <input id="lname" name ="Name" type="data"  autocomplete {...register('value_name')}></input><br />
     <label>Age </label>
-    <input age ="Age" type="number" {...register('value_age')}></input>
-    <input type="submit"/>
+    <input id="age" age ="Age" type="number" autocomplete {...register('value_age')}></input>
+    <input type="submit" autocomplete />
     </form>
     </>
 

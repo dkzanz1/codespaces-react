@@ -8,11 +8,11 @@ import React from "react";
     <form>
     <h1>Forms component One</h1>
     <label>Name </label>
-    <input name ="name" type="data"></input> <br />
+    <input id="Fname"  name ="name" type="data" autocomplete></input> <br />
     <label>Surname </label>
-    <input name ="Lname" type="data"></input><br />
+    <input id="Lname" name ="Lname" type="data" autocomplete ></input><br />
     <label>Age </label>
-    <input age ="Age" type="number"></input>
+    <input id="age" age ="Age" type="number" autocomplete ></input>
     </form>
     </>
 
